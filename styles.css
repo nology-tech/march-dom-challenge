@@ -1,0 +1,54 @@
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Poppins";
+}
+
+* {
+  font-family: "Lato";
+}
+
+body {
+  text-align: center;
+}
+
+input {
+  border: 1px solid lightgray;
+  padding: 5px 10px;
+  margin: 5px;
+}
+
+ul {
+  width: fit-content;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.valid {
+  border: 10px solid green;
+}
+
+.invalid {
+  border: 10px solid red;
+}
+
+.active {
+  border: 10px solid blue;
+}
+
+#error-message {
+  background: red;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  display: none;
+  width: 200px;
+  margin-top: 5px;
+}
+
+.show {
+  display: block !important;
+  margin: auto;
+}
